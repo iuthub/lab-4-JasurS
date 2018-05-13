@@ -15,25 +15,27 @@
 		<hr />
 		
 		<h2>Give Us Your Money</h2>
-		<dl>
-			<dt>Name</dt>
-			<dd>
-				???
-			</dd>
-			
-			<dt>Section</dt>
-			<dd>
-				???
-			</dd>
-			
-			<dt>Credit Card</dt>
-			<dd>
-				???
-			</dd>
-		</dl>
+		 <form action ="http://webster.cs.Washington.edu/params.php" method="set">
+
+          Name:<br>
+          <input type="text" name="firstname">
+          <br>Section:<br>
+          <input list="section" name ="section" value= "">
+           <datalist id="section">
+          	 <option value = "CSE">
+          	 <option value ="ICE">
+          	 <option value = "SOL">
+           </datalist>
+          <br>Credit Card:<br>
+          <input type="text" name="creditcard">
+          <br> <input type="radio" name="cardinfo" value="Visa">Visa 
+           <input type="radio" name ="cardinfo" value="MasterCard">MasterCard
+           <br><br>
+            <div id="sucker">
+             <input type="submit" value="I am a giant sucker.">
+            </div>
+		 </form>
 		
-		<div>
-			I am a giant sucker.
-		</div>
+		
 	</body>
 </html>
