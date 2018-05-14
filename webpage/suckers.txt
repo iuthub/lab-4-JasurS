@@ -1,0 +1,3 @@
+Jasur Salimov;CSE;1518888848845;MasterCard
+Sherzod Shavkatjonov;CSE;8888888889494;Visa
+Sherzod Shavkatjonov;CSE;8888888889494;Visa
